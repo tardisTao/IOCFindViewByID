@@ -13,9 +13,8 @@ ViewUtils.inject(this); <br>
 3. 属性注入：<br>
 ``` ViewUtils.inject(this); ```<br>
 4. 方法注入<br>
-```  @OnClick(R.id.btn2)
+	
+	@OnClick(R.id.btn2)
     private void OnClick(){
         Toast.makeText(this,"button 2 点击了",Toast.LENGTH_SHORT).show();
-    } ```
-
-
+    } 
